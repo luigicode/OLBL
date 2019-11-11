@@ -1,0 +1,10 @@
+terminal stuff
+ -cd to site directory
+ -push to git
+
+netlify:
+ -new site from git
+
+*site deployed*
+
+domain name
