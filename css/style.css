@@ -363,6 +363,14 @@ h6 {
 }
 
 /*Articles*/
+
+#article .card .content li {
+  display: grid;
+
+  grid-gap: 1;
+  grid-template-columns: repeat(1 2fr);
+}
+
 .content {
   color: rgb(37, 37, 37);
   font-size: 19px;

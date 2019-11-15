@@ -43,6 +43,11 @@
     font-size: 29px;
   }
 
+  .card .meta {
+    display: contents !important;
+    text-align: center !important;
+  }
+
   #main-footer .footer-container > *:last-child {
     grid-column: 1;
   }
