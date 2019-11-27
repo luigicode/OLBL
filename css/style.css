@@ -7,8 +7,9 @@
 }
 
 .category {
+  --tricord-color: #a66bbe;
   --praise-color: #f99500;
-  --intercessory-color: #a66bbe;
+  --intercessory-color: #e6e33c;
   --service-color: #009cff;
 }
 
@@ -74,6 +75,10 @@ h6 {
   padding: 0.4rem 0.6rem;
   border-radius: 15px;
   margin-bottom: 0.5rem;
+}
+
+.category-tricord {
+  background: var(--tricord-color);
 }
 
 .category-praise {
@@ -316,6 +321,17 @@ h6 {
   opacity: 0.4;
 }
 
+.tricord-pic:before {
+  content: "";
+  background: url("../img/tricord.jpg") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
 #main-pic .main-pic-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -341,15 +357,6 @@ h6 {
   align-content: center;
 }
 
-#home-articles .articles-container > *:first-child,
-#home-articles .articles-container > *:nth-child(7) {
-  display: grid;
-
-  grid-gap: 1rem;
-  align-items: center;
-  /*grid-column: 1 / span 3;*/
-}
-
 #article .meta {
   display: flex;
   justify-content: space-between;
@@ -360,6 +367,14 @@ h6 {
 
 #article .meta .category {
   margin-top: 0.4rem;
+}
+
+.grow {
+  transition: all 0.3s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
 }
 
 /*Articles*/
