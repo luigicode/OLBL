@@ -141,6 +141,12 @@ h6 {
   padding: 16px;
 }
 
+.article-card {
+  box-shadow: 3px 4px 4px #333;
+  border-radius: 2%;
+  padding: 16px;
+}
+
 .bg-dark {
   background: var(--dark-color);
   color: #fff;
