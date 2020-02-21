@@ -401,6 +401,25 @@ h6 {
   color: #000;
 }
 
+/* blog */
+.blog {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+.blog img {
+  max-width: none;
+}
+
+/* ad space */
+.ad {
+  text-align: center;
+  background: #333;
+  border: 5px solid #696969;
+  border-radius: 2%;
+  padding: 16px;
+  font-size: 12px;
+}
+
 /* Footer */
 #main-footer {
   background: var(--dark-color);
@@ -424,8 +443,7 @@ h6 {
 }
 
 #main-footer .footer-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 1.5rem;
 }
 
@@ -436,7 +454,7 @@ h6 {
   text-align: center;
   font-size: 0.75rem;
 }
-
+/*
 #main-footer .footer-container input[type="email"] {
   width: 90%;
   padding: 0.5rem;
@@ -446,3 +464,4 @@ h6 {
 #main-footer .footer-container input[type="submit"] {
   width: 90%;
 }
+*/
