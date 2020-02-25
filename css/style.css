@@ -1,6 +1,7 @@
 :root {
   --primary-color: #c72727;
   --secondary-color: #f99500;
+  --aqua-color: rgb(25, 137, 189);
   --light-color: #f3f3f3;
   --dark-color: #333;
   --max-width: 1100px;
@@ -160,6 +161,11 @@ h6 {
 .bg-secondary {
   background: var(--secondary-color);
   color: #fff;
+}
+
+.bg-aqua {
+  background: var(--aqua-color);
+  color: #000;
 }
 
 .bg-dark h1,
