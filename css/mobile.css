@@ -9,7 +9,8 @@
 }
 
 #main-nav ul,
-#main-nav .logo {
+#main-nav .logo,
+#main-nav .icon {
   justify-self: center;
 }
 
@@ -40,7 +41,7 @@
   }
 
   .card {
-    font-size: 29px;
+    font-size: 19px;
   }
 
   .card .meta {
@@ -82,12 +83,6 @@
 
   #main-footer .footer-container > *:last-child {
     grid-column: 1;
-  }
-
-  #main-footer .footer-container > *:first-child,
-  #main-footer .footer-container > *:nth-child(2) {
-    border-bottom: #4444 dotted 1px;
-    padding-bottom: 1rem;
   }
 
   .page-container {

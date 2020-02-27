@@ -125,6 +125,10 @@ h6 {
   opacity: 2;
 }
 
+.icon {
+  display: grid;
+}
+
 .static {
   background-image: repeating-linear-gradient(
     to bottom right,
