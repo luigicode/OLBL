@@ -21,7 +21,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   line-height: 1.5;
 }
@@ -102,6 +102,7 @@ h6 {
 
 .btn-light {
   background: var(--light-color);
+  color: #000 !important;
 }
 .btn-primary {
   background: var(--primary-color);
@@ -155,6 +156,11 @@ h6 {
   padding: 16px;
 }
 
+.bg-light {
+  background: var(--light-color);
+  color: #000;
+}
+
 .bg-dark {
   background: var(--dark-color);
   color: #fff;
@@ -192,6 +198,13 @@ h6 {
 .bg-aqua h3,
 .bg-aqua a {
   color: #fff;
+}
+
+.bg-light h1,
+.bg-light h2,
+.bg-light h3,
+.bg-light a {
+  color: #000;
 }
 
 .py-1 {
