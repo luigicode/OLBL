@@ -24,7 +24,6 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 1.5;
-  background: var(--light-color);
 }
 
 a {
@@ -98,6 +97,7 @@ h6 {
   background: var(--dark-color);
   color: #fff;
   padding: 0.5rem 1.5rem;
+  position: inherit;
 }
 
 .btn-light {
@@ -108,6 +108,9 @@ h6 {
 }
 .btn-secondary {
   background: var(--secondary-color);
+}
+.btn-blue {
+  background: var(--aqua-color);
 }
 
 .btn-block {
@@ -206,8 +209,38 @@ h6 {
   padding: 3rem;
 }
 
+.name {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.source {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
 .l-heading {
   font-size: 3rem;
+}
+
+.m-heading {
+  font-size: 2rem;
+}
+
+.l-img {
+  size: 3rem;
+}
+.m-img {
+  size: 2rem;
 }
 
 .list li {
@@ -427,7 +460,7 @@ h6 {
   border: 5px solid #696969;
   border-radius: 2%;
   padding: 16px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* Footer */
@@ -453,7 +486,8 @@ h6 {
 }
 
 #main-footer .footer-container {
-  grid-template-columns: repeat(1, 1fr);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.5rem;
 }
 
