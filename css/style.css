@@ -172,7 +172,7 @@ h6 {
 
 .bg-aqua {
   background: var(--aqua-color);
-  color: #000;
+  color: #fff;
 }
 
 .bg-dark h1,
@@ -186,7 +186,11 @@ h6 {
 .bg-secondary h1,
 .bg-secondary h2,
 .bg-secondary h3,
-.bg-secondary a {
+.bg-secondary a,
+.bg-aqua h1,
+.bg-aqua h2,
+.bg-aqua h3,
+.bg-aqua a {
   color: #fff;
 }
 
