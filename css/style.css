@@ -44,8 +44,7 @@ p {
 }
 
 img {
-  max-height: 15rem;
-  max-width: 18rem;
+  width: 100%;
 }
 
 h1,
@@ -131,6 +130,7 @@ h6 {
 
 .icon {
   display: grid;
+  width: auto;
 }
 
 .static {
@@ -279,7 +279,8 @@ h6 {
 }
 
 .l-img {
-  size: 3rem;
+  width: 5rem !important;
+  height: 5rem !important;
 }
 .m-img {
   size: 2rem;
@@ -308,9 +309,16 @@ h6 {
 }
 
 .page-container img {
-  max-height: 20rem;
+  max-height: 35rem;
+  max-width: 35rem;
+}
+
+/*
+.card-img {
+  max-height: 15rem;
   max-width: 19rem;
 }
+*/
 
 /* Navigation */
 #main-nav {
