@@ -128,6 +128,10 @@ h6 {
   opacity: 2;
 }
 
+.fade:hover {
+  color: dimgray;
+}
+
 .icon {
   display: grid;
   width: auto;
